@@ -1,37 +1,50 @@
-## Welcome to GitHub Pages
+<html>
 
-You can use the [editor on GitHub](https://github.com/AISKLunch/AISK-Lunch/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+<title>AISK Lunch</title> 
+<meta charset="utf-8">
+<style>
+h1 {text-align: center;}
+p {text-align:center;}
+table {border: 1px solid black; border-collapse: collapse; font-size: 150%; text-align:center;}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+img{padding:0px 0px 0px 225px;}
+</style>
+ 
 
-### Markdown
+ 
+</head>
+<body>
+<h1>Welcome to AISK Lunch</h1>
+<br>
+<br>
+<p>The lunch schedule for this week is below:</p>
+<br>
+<br>
+<br>
+<br>
+ 
+<!--<table>
+ 
+ 
+<tr><td><a href = "http://www.example.com">Monday</a></td></tr>
+<tr><td><a href = "http://www.example.com">Tuesday</a></td> </tr>
+<tr><td><a href = "http://www.example.com">Wednesday</a></td> </tr>
+<tr><td><a href = "http://www.example.com">Thursday</a></td> </tr>
+<tr><td><a href = "http://www.example.com">Friday</a></td> </tr>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+</table> -->
+ <img src="menu.jpg" height="600" width="800" usemap="#map"/>
 
-# Header 1
-## Header 2
-### Header 3
+<map name="map">
+<area shape="rect" coords="36,120,152,198" href="http://www.example.com">
+<area shape="rect" coords="36,216,152,296" href="http://www.example.com">
+<area shape="rect" coords="36,306,152,388" href="http://www.example.com">
+<area shape="rect" coords="36,394,152,470" href="http://www.example.com">
+<area shape="rect" coords="36,482,152,556" href="http://www.example.com">
+</map>
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AISKLunch/AISK-Lunch/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</body>
+ 
+</html>
